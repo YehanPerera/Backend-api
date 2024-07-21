@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: flask-app
-          image: chandima35687729/flask-app:latest
+          image: yehan715/my-flask-app:latest
           imagePullPolicy: "Always"
           ports:
             - containerPort: 5000
